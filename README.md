@@ -14,3 +14,4 @@ heart.csv imported from our github repository
 <li>Resting BP and Cholesterol has zero as minimum which is not possible unless the patient is dead. </ul>
 <li>There may be outliers/Missings in Cholesterol and Resting BP being presented as zero. </ul>
 <li>The interquartile range of MaxHR suggests that there maybe outliers from Min to 1st quartile. </ul>
+
