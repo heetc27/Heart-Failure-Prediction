@@ -8,3 +8,9 @@ To predict the chances of heart failure and studying the factors associated with
 
 ## Dataset: 
 heart.csv imported from our github repository
+
+## Observations:
+<li>We observe that the Dataset has 12 Columns, (Age, Sex, ChestPainType, Resting BloodPressure, Cholesterol, Fasting Blood Sugar, Resting ECG. Maximum Heart Rate, Exercise Angina, Old Peak, ST_Slope and Heart Disease(present or absent)</ul>
+<li>Resting BP and Cholesterol has zero as minimum which is not possible unless the patient is dead. </ul>
+<li>There may be outliers/Missings in Cholesterol and Resting BP being presented as zero. </ul>
+<li>The interquartile range of MaxHR suggests that there maybe outliers from Min to 1st quartile. </ul>
