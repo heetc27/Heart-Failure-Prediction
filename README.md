@@ -15,3 +15,14 @@ heart.csv imported from our github repository
 <li>There may be outliers/Missings in Cholesterol and Resting BP being presented as zero. </ul>
 <li>The interquartile range of MaxHR suggests that there maybe outliers from Min to 1st quartile. </ul>
 
+We have made use of logistic regression for prediction in our dataset since Logistic regression is a very useful algorithm for modeling a binomial outcome with one or more explanatory variables. In our case our binary variable which needs to be predicted is the presence or absence of Heart Disease (0 or 1) with its dependent variables such as Chest Pain Type, Cholesterol, Heart Rate etc.
+Our model predicts the probability of the binary variable Heart Disease based on its predictor variables.
+
+Split the dataset into 80% training and 20% testing using Caret.
+We use the glm() function to create the regression model and get its summary for analysis.
+
+## Conclusion
+From the Decision Tree above, we can infer that:
+<li>The First Criteria for heart diagnosis is ST_Slope, when recorded UP, there is a 18.6% likelihood that there is no heart disease, however there is an 82.3% likelihood that there is presence of heart disease making up for 57.6% of the people in the dataset. 
+<li>The next criteria is ChestPainType which is assosciated with criterias OldPeak values and Sex. 
+<li>As OldPeak continues to be less than 0.45, there is a 73% likelihood that the person has a heart disease.
